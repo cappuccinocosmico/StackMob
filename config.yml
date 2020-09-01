@@ -144,17 +144,17 @@ death:
     priority: 3
     reason-blacklist: []
     reason-blacklist-invert: false
-    type-blacklist: []
+    type-blacklist:
+    - ZOMBIFIED_PIGLIN
     type-blacklist-invert: false
   STEP:
     priority: 2
     reason-blacklist: []
     reason-blacklist-invert: false
-    type-blacklist:
-    - ZOMBIFIED_PIGLIN
+    type-blacklist: []
     type-blacklist-invert: false
-    max-step: 5
-    min-step: 1
+    max-step: 10
+    min-step: 4
   STEP_DAMAGE:
     priority: 1
     reason-blacklist: []
