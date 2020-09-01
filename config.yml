@@ -18,7 +18,9 @@ stack:
   # Only begin to stack entities when this amount of entities are nearby.
   threshold:
     enabled: true
-    amount: 5
+    #amount: 5
+    # Increase for stacking in large farms only.
+    amount: 15
 
 # Names of worlds where there should be no stacking
 worlds-blacklist: []
