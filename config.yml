@@ -14,19 +14,19 @@ stack:
   interval: 100
   # The area around an entity for which applicable stacks should be found.
   # Format: [(x cord),(y cord),(z cord)]
-  merge-range: [10,10,10]
+  merge-range: [5,5,5]
   # Only begin to stack entities when this amount of entities are nearby.
   threshold:
     enabled: true
     #amount: 5
     # Increase for stacking in large farms only.
-    amount: 15
+    amount: 25
 
 # Names of worlds where there should be no stacking
 worlds-blacklist: []
 worlds-blacklist-invert: false
 # Types of entity which should not stack
-types-blacklist: [VILLAGER]
+types-blacklist: [VILLAGER,PIGLIN`]
 types-blacklist-invert: false
 # If the entity's spawns reason is listed below, do not stack.
 reason-blacklist: [NATURAL]
